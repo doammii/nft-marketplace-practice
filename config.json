@@ -1,0 +1,10 @@
+{
+    "NumberOfNFT" : 7,
+    "TokenName" : "Wauz", 
+    "TokenSymbol" : "HIBLWAU",
+    "TreasuryAccount": "",
+    "PrivateKey": "",
+    "pinataApiKey":"",
+    "pinataSecretApiKey": "",
+    "imageExtension" : "png"
+}
