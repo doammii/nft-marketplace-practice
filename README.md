@@ -1,12 +1,8 @@
-# Introduction
-Klay-Gacha-Machine이란? 
+# Klay-Gacha-Machine이란? 
 Klay-Gacha-Machine은 클레이튼 환경에서 NFT를 발행하기 위한 에코시스템을 지향하며, 클레이튼 기반의 NFT 발행을 원하시는 개발자와 발행인들을 위해 많은 개발도구들을 지원해 개발적 요소를 최소화하는 것을 목표로 합니다.
 
-# Official Menual
-곧 깃북 업데이트와 함께 추가기능 매뉴얼이 제공될 예정입니다.
-## Medium
-https://medium.com/@eklee808/%EA%B0%9C%EB%B0%9C%EC%97%86%EC%9D%B4-%ED%81%B4%EB%A0%88%EC%9D%B4-%EC%A0%9C%EB%84%88%EB%9F%AC%ED%8B%B0%EB%B8%8C-nft-%EB%B0%9C%ED%96%89%ED%95%98%EA%B8%B0-1-klay-gacha-machine-eb17496e8b22
-
+# Official Manual
+https://docs.klaygachamachine.com/
 
 # Product
 ## Gacha-Machine-CLI 
@@ -28,27 +24,16 @@ git clone을 이용한 설치​명령 프롬프트를 켜고 다음 명령어�
 프로젝트 내 config.json 파일을 열면 다음과 같은 파일 내용이 나옵니다.
 ```
 { "NumberOfNFT" : 100, //총 발행갯수  
-
 "TokenName" : "myNFT", //NFT의 대표 이름
-
 "TokenSymbol" : "MNT", //NFT의 토큰심볼  
-
 "TreasuryAccount": "", //NFT의 발행주소
-
 "PrivateKey": "", //NFT 발행주소의 프라이빗  
-
 "pinataApiKey":"", //Pinata의 api key 
-
 "pinataSecretApiKey": "", //Pinata의 secret key 
-
 "imageExtension" : "jpeg", //이미지 파일의 확장자 
-
 "awsRegion" : "ap-northeast-2", //aws s3의 리전이름 
-
 "awsBucketName": "", //aws s3의 버킷이름 예) "gacha-machine"
-
 "awsAccessKey" : "", //aws의 액세스키  
-
 "awsSecretKey" : "" //aws의secret key }
 ```
 
